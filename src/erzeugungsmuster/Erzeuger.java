@@ -6,8 +6,6 @@ public abstract class Erzeuger {
 	public abstract Produkt fabrikmethode();
 	
 	public void operation() {
-		System.out.println(new KonkreterErzeugerX());
-		
-		
+		System.out.println("Hi, ich funktioniere.");
 	}
 }
