@@ -2,6 +2,10 @@ package erzeugungsmuster;
 
 public abstract class Produkt {
 	
-	public abstract void print();
+	
+	public void print() {
+		
+		System.out.println("Hi, ich bin ein namenloses Produkt");
+	}
 
 }
