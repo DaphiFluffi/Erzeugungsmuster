@@ -1,5 +1,5 @@
 package abstrakteFabrik;
 
-public class KonkretesProduktB2 {
+public class KonkretesProduktB2 implements IAbstraktesProduktB{
 
 }
