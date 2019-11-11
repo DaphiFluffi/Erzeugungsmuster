@@ -2,11 +2,7 @@ package abstrakteFabrik;
 
 public interface IAbstrakteFabrik {
 
-	IAbstraktesProduktA erzeugeProduktA() {
-		return new AbstraktesProduktA();
-	}
+	IAbstraktesProduktA erzeugeProduktA ();
 	
-	IAbstraktesProduktB erzeugeProduktB() {
-		return ;
-	}
+	IAbstraktesProduktB erzeugeProduktB ();
 }
