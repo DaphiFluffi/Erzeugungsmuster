@@ -1,6 +1,6 @@
 package abstrakteFabrik;
 
-public class KonkreteFabrik2 implements IAbstrakteFabrik{ {
+public class KonkreteFabrik2 implements IAbstrakteFabrik { 
 	
 	@Override
 	public IAbstraktesProduktA erzeugeProduktA() {
