@@ -1,4 +1,4 @@
-package erzeugungsmuster;
+package fabrikmethode;
 
 public class KonkretesProduktA extends Produkt {
 	@Override
