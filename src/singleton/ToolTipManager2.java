@@ -13,7 +13,7 @@ final public class ToolTipManager2 {
 		}
 		
 		public void operation() {
-			System.out.println("operation() aufgerufen");
+			System.out.println("operation() aufgerufen, hashCode " + this.hashCode());
 		}
 	
 }

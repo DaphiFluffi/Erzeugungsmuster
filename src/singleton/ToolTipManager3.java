@@ -10,7 +10,7 @@ final public class ToolTipManager3 {
 	}
 	
 	
-	public static ToolTipManager3 getInstance() {
+	public static synchronized ToolTipManager3 getInstance() {
 		
 		if ( instance == null) {
 			instance = new ToolTipManager3();
@@ -19,7 +19,7 @@ final public class ToolTipManager3 {
 	}
 	
 	public void operation() {
-		System.out.println("operation() aufgerufen");
+		System.out.println("operation() aufgerufen, hashCode " + this.hashCode());
 	}
 	
 
