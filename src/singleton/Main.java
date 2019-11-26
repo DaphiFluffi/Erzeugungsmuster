@@ -7,7 +7,7 @@ public class Main {
 		SingletonTestThread2 s2 = new SingletonTestThread2("Thread 2");
 		SingletonTestThread2 s3 = new SingletonTestThread2("Thread 3");*/
 		
-		SingletonTestThread s1 = new SingletonTestThread("Thread 1");
+		SingletonTestThread s1 = new SingletonTestThread("Thread 1"); //TTM3 (synchronized)
 		SingletonTestThread s2 = new SingletonTestThread("Thread 2");
 		SingletonTestThread s3 = new SingletonTestThread("Thread 3");
 		
